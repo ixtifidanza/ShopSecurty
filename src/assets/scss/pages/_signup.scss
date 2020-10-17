@@ -1,0 +1,105 @@
+.signup {
+    margin: 0;
+    padding: 0;
+    @media (max-width: 568px) {
+        margin-top: 30px;
+    }
+    &__banner {
+        border-radius: 5px;
+        background-image: url(./../img/bg-reg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 43px 60px;
+        @media (max-width: 568px) {
+            padding: 30px;
+        }
+    }
+    &__banner .col-lg-4 {
+        background-color: #fff;
+        width: 360px;
+        padding: 10px 35px;
+        @media (max-width: 568px) {
+            width: 100%;
+            padding: 15px;
+        }
+    }
+    &__title {
+        font-size: 20px;
+        font-weight: 700;
+        color: #F5A81B;
+        padding-bottom: 15px;
+        text-align: center;
+        @media (max-width: 568px) {
+            font-size: 22px !important;
+            text-align: center !important;
+            margin-top: 20px;
+        }
+    }
+    &__input input {
+        background-color: #F6F6F6;
+        padding-left: 20px;
+        height: 40px;
+        color: #373435;
+        font-size: 15px;
+        width: 100%;
+        border: none;
+        outline: none;
+        margin-bottom: 15px;
+    }
+    &__btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        height: 42px;
+        width: 100% !important;
+        border-radius: 0px;
+        font-size: 15px;
+        text-decoration: none;
+        line-height: 0;
+        background-color: #F5A81B;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    &__text {
+        font-size: 11px;
+        font-weight: 300;
+        color: #373435;
+        margin-top: 23px;
+        display: block;
+        text-align: center;
+    }
+    &__text a {
+        font-size: 11px;
+        font-weight: 600;
+        color: #373435;
+        text-decoration: none;
+    }
+    .col-lg-7 &__title {
+        color: #fff;
+        font-size: 30px;
+        text-align: right;
+    }
+    .col-lg-7 &__item {
+        list-style-type: none;
+        display: flex;
+        margin-bottom: 60px;
+        img {
+            width: 56px;
+            height: 56px;
+        }
+    }
+    .col-lg-7 &__text {
+        color: #fff;
+        font-size: 18px;
+        text-align: left;
+        font-weight: 700;
+        margin: 0 0 0 50px;
+        padding: 0;
+        list-style-type: none;
+        @media (max-width: 568px) {
+            margin: 0 0 0 20px;
+            font-size: 15px;
+        }
+    }
+}

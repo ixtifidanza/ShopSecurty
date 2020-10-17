@@ -1,0 +1,1445 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Security</title>
+    <link rel="stylesheet" href="assets/css/libs.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="header-top">
+            <div class="container">
+                <div class="row al-center">
+                    <div class="col-lg-6">
+                        <ul class="header-top__links">
+                            <li>
+                                <a class="header-top__link link" href="#">Доставка и опалата</a>
+                            </li>
+                            <li>
+                                <a class="header-top__link link" href="#">Объекты</a>
+                            </li>
+                            <li>
+                                <a class="header-top__link link" href="#">Гарантия</a>
+                            </li>
+                            <li>
+                                <a class="header-top__link link" href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 col-xs-6">
+                        <div class="header-top__contact">
+                            <img class="header-top__contact--logo" src="assets/img/call.svg" alt="call">
+                            <a class="header-top__contact--link link" href="tel:+998999876554">+99899 987 65 54</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="header-nav" id="navbar">
+                <div class="row al-center">
+
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="header__first">
+                            <a href="#">
+                                <img class="header__logo" src="assets/img/LOGO.png" alt="logo">
+                            </a>
+                            <div class="burger">
+                                <div class="burger-icon"></div>
+                            </div>
+                            <h3 class="header__title">Каталог</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-4 col-sm-12">
+                        <div class="header__search">
+                            <input class="header__search--input" type="text" placeholder="Поиск по сайту">
+                            <img class="header__search--logo" src="assets/img/search.svg" alt="search">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="header__last">
+                            <ul class="header__last--links">
+                                <li>
+                                    <a id="modal-open" class="link" href="#">
+                                        <img src="assets/img/sign_in.svg" alt="">
+                                        <span>Войти</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">
+                                        <img src="assets/img/favorite.svg" alt="">
+                                        <span>Избранное</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="link" href="trash-modal">
+                                        <img src="assets/img/basket.svg" alt="">
+                                        <span>Корзина</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <!-- /.Container -->
+    </header>
+
+    <div class="container">
+
+        <section class="megamenu">
+            <aside class="aside-megamenu">
+                <nav class="nav nav-pills">
+                    <!-- меняешь названия и соответствующий href(через него можно включать табы, код написать не сложно, тупо switch case) -->
+                    <a class="nav-link active" href="#megamenu_1">Умный дом</a>
+                    <a class="nav-link" href="#megamenu_2">Turbo HD камеры</a>
+                    <a class="nav-link" href="#megamenu_3">Turbo HD видеорегистраторы</a>
+                    <a class="nav-link" href="#megamenu_4">IP камеры</a>
+                </nav>
+            </aside>
+            <div class="sub-megamenu">
+                <div class="tab-content">
+                    <!--  -->
+                    <div class="tab-pane active" id="megamenu_1">
+                        <!-- mega submenu-content -->
+
+                        <ul class="megasubmenu-content-wrap">
+                            <li>
+                                <a class="link-submenu" href="#">Tower Camera</a>
+                                <a class="link-submenu" href="#">Tower Camera</a>
+                                <a class="link-submenu" href="#">Tower Camera</a>
+                                <a class="link-submenu" href="#">Tower Camera</a>
+                                <a class="link-submenu" href="#">Tower Camera</a>
+                                <a class="link-submenu" href="#">Tower Camera</a>
+                                <a class="link-submenu" href="#">Tower Camera</a>
+                            </li>
+                            <li>
+                                <a class="link-submenu" href="#">Camera 3HP</a>
+                                <a class="link-submenu" href="#">Camera 3HP</a>
+                                <a class="link-submenu" href="#">Camera 3HP</a>
+                                <a class="link-submenu" href="#">Camera 3HP</a>
+                                <a class="link-submenu" href="#">Camera 3HP</a>
+                                <a class="link-submenu" href="#">Camera 3HP</a>
+                                <a class="link-submenu" href="#">Camera 3HP</a>
+                            </li>
+                        </ul>
+                        <!-- mega submenu-content //end -->
+                    </div>
+                    <div class="tab-pane" id="megamenu_2">
+                        <!-- mega submenu-content -->
+
+                        <ul class="megasubmenu-content-wrap">
+                            <li>
+                                <a class="link-submenu" href="#">Tower Camera</a>
+                                <a class="link-submenu" href="#">Tower Camera</a>
+                                <a class="link-submenu" href="#">Tower Camera</a>
+                                <a class="link-submenu" href="#">Tower Camera</a>
+                                <a class="link-submenu" href="#">Tower Camera</a>
+                                <a class="link-submenu" href="#">Tower Camera</a>
+                                <a class="link-submenu" href="#">Tower Camera</a>
+                            </li>
+                            <li>
+                                <a class="link-submenu" href="#">Camera 3HP</a>
+                                <a class="link-submenu" href="#">Camera 3HP</a>
+                                <a class="link-submenu" href="#">Camera 3HP</a>
+                                <a class="link-submenu" href="#">Camera 3HP</a>
+                                <a class="link-submenu" href="#">Camera 3HP</a>
+                                <a class="link-submenu" href="#">Camera 3HP</a>
+                                <a class="link-submenu" href="#">Camera 3HP</a>
+                            </li>
+                        </ul>
+                        <!-- mega submenu-content //end -->
+                    </div>
+                    <div class="tab-pane" id="megamenu_3">
+                        <!-- mega submenu-content -->
+
+                        <ul class="megasubmenu-content-wrap">
+                            <li>
+                                <a class="link-submenu" href="#">Tower Camera</a>
+                                <a class="link-submenu" href="#">Tower Camera</a>
+                                <a class="link-submenu" href="#">Tower Camera</a>
+                                <a class="link-submenu" href="#">Tower Camera</a>
+                                <a class="link-submenu" href="#">Tower Camera</a>
+                                <a class="link-submenu" href="#">Tower Camera</a>
+                                <a class="link-submenu" href="#">Tower Camera</a>
+                            </li>
+                            <li>
+                                <a class="link-submenu" href="#">Camera 3HP</a>
+                                <a class="link-submenu" href="#">Camera 3HP</a>
+                                <a class="link-submenu" href="#">Camera 3HP</a>
+                                <a class="link-submenu" href="#">Camera 3HP</a>
+                                <a class="link-submenu" href="#">Camera 3HP</a>
+                                <a class="link-submenu" href="#">Camera 3HP</a>
+                                <a class="link-submenu" href="#">Camera 3HP</a>
+                            </li>
+                        </ul>
+                        <!-- mega submenu-content //end -->
+                    </div>
+                    <div class="tab-pane" id="megamenu_4">
+                        <!-- mega submenu-content -->
+
+                        <ul class="megasubmenu-content-wrap">
+                            <li>
+                                <a class="link-submenu" href="#">Tower Camera</a>
+                                <a class="link-submenu" href="#">Tower Camera</a>
+                                <a class="link-submenu" href="#">Tower Camera</a>
+                                <a class="link-submenu" href="#">Tower Camera</a>
+                                <a class="link-submenu" href="#">Tower Camera</a>
+                                <a class="link-submenu" href="#">Tower Camera</a>
+                                <a class="link-submenu" href="#">Tower Camera</a>
+                            </li>
+                            <li>
+                                <a class="link-submenu" href="#">Camera 3HP</a>
+                                <a class="link-submenu" href="#">Camera 3HP</a>
+                                <a class="link-submenu" href="#">Camera 3HP</a>
+                                <a class="link-submenu" href="#">Camera 3HP</a>
+                                <a class="link-submenu" href="#">Camera 3HP</a>
+                                <a class="link-submenu" href="#">Camera 3HP</a>
+                                <a class="link-submenu" href="#">Camera 3HP</a>
+                            </li>
+                        </ul>
+                        <!-- mega submenu-content //end -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section slider">
+
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+
+                    <div class="slider__item swiper-slide">
+                        <img class="slider__img" src="assets/img/slider-img.jpg" alt="">
+                        <div class="slider__content">
+                            <h2 class="slider__title title">
+                                Системы видео наблюдения
+                            </h2>
+                            <p class="slider__text">
+                                Мы завозим самые новые камеры <br> видео наблюдения в Ташкент - мы <br> залог успеха
+                            </p>
+                            <a class="btn slider__btn link" href="#">Заказать звонок</a>
+                        </div>
+                    </div>
+
+                    <div class="slider__item swiper-slide">
+                        <img class="slider__img"
+                            src="https://cdn.pixabay.com/photo/2014/10/16/09/15/lens-490806_960_720.jpg" alt="">
+                        <div class="slider__content">
+                            <h2 class="slider__title title">
+                                Системы видео наблюдения
+                            </h2>
+                            <p class="slider__text">
+                                Мы завозим самые новые камеры <br> видео наблюдения в Ташкент - мы <br> залог успеха
+                            </p>
+                            <a class="btn slider__btn link" href="#">Заказать звонок</a>
+                        </div>
+                    </div>
+
+                    <div class="slider__item swiper-slide">
+                        <img class="slider__img"
+                            src="https://cdn.pixabay.com/photo/2017/08/07/01/41/camera-2598507_960_720.jpg" alt="">
+                        <div class="slider__content">
+                            <h2 class="slider__title title">
+                                Системы видео наблюдения
+                            </h2>
+                            <p class="slider__text">
+                                Мы завозим самые новые камеры <br> видео наблюдения в Ташкент - мы <br> залог успеха
+                            </p>
+                            <a class="btn slider__btn link" href="#">Заказать звонок</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+        </section>
+
+        <section class="section favorite">
+            <h1 class="favorite__title title">Популярные товары</h1>
+
+            <div class="tabs">
+                <ul class="tabs__caption">
+                    <li>Домофоны</li>
+                    <li>Видеорегестраторы</li>
+                    <li class="tabs__active">IP Камеры</li>
+                </ul>
+
+                <div class="tabs__content">
+                    <div class="favorite-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="favorite-card">
+
+                                    <div class="favorite-card__top">
+                                        <div class="favorite-stars">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star.svg" alt="">
+                                        </div>
+
+                                        <img class="favorite-card__img" src="assets/img/tower-camera.png" alt="">
+                                    </div>
+
+                                    <div class="favorite-card__bottom">
+                                        <h3 class="favorite-card__title">Tower Camera</h3>
+
+                                        <span class="favorite-card__price">
+                                            320 000
+                                        </span>
+                                        <span class="favorite-card__price-tag">сум</span>
+
+                                        <div class="favorite-card__btns">
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/favorite.svg" alt="">
+                                            </div>
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/basket-btn.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="favorite-card">
+
+                                    <div class="favorite-card__top">
+                                        <div class="favorite-stars">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star.svg" alt="">
+                                        </div>
+
+                                        <img class="favorite-card__img" src="assets/img/tower-camera.png" alt="">
+                                    </div>
+
+                                    <div class="favorite-card__bottom">
+                                        <h3 class="favorite-card__title">Tower Camera</h3>
+
+                                        <span class="favorite-card__price">
+                                            320 000
+                                        </span>
+                                        <span class="favorite-card__price-tag">сум</span>
+
+                                        <div class="favorite-card__btns">
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/favorite.svg" alt="">
+                                            </div>
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/basket-btn.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="favorite-card">
+
+                                    <div class="favorite-card__top">
+                                        <div class="favorite-stars">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star.svg" alt="">
+                                        </div>
+
+                                        <img class="favorite-card__img" src="assets/img/tower-camera.png" alt="">
+                                    </div>
+
+                                    <div class="favorite-card__bottom">
+                                        <h3 class="favorite-card__title">Tower Camera</h3>
+
+                                        <span class="favorite-card__price">
+                                            320 000
+                                        </span>
+                                        <span class="favorite-card__price-tag">сум</span>
+
+                                        <div class="favorite-card__btns">
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/favorite.svg" alt="">
+                                            </div>
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/basket-btn.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="favorite-card">
+
+                                    <div class="favorite-card__top">
+                                        <div class="favorite-stars">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star.svg" alt="">
+                                        </div>
+
+                                        <img class="favorite-card__img" src="assets/img/tower-camera.png" alt="">
+                                    </div>
+
+                                    <div class="favorite-card__bottom">
+                                        <h3 class="favorite-card__title">Tower Camera</h3>
+
+                                        <span class="favorite-card__price">
+                                            320 000
+                                        </span>
+                                        <span class="favorite-card__price-tag">сум</span>
+
+                                        <div class="favorite-card__btns">
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/favorite.svg" alt="">
+                                            </div>
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/basket-btn.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="favorite-card">
+
+                                    <div class="favorite-card__top">
+                                        <div class="favorite-stars">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star.svg" alt="">
+                                        </div>
+
+                                        <img class="favorite-card__img" src="assets/img/tower-camera.png" alt="">
+                                    </div>
+
+                                    <div class="favorite-card__bottom">
+                                        <h3 class="favorite-card__title">Tower Camera</h3>
+
+                                        <span class="favorite-card__price">
+                                            320 000
+                                        </span>
+                                        <span class="favorite-card__price-tag">сум</span>
+
+                                        <div class="favorite-card__btns">
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/favorite.svg" alt="">
+                                            </div>
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/basket-btn.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="favorite-card">
+
+                                    <div class="favorite-card__top">
+                                        <div class="favorite-stars">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star.svg" alt="">
+                                        </div>
+
+                                        <img class="favorite-card__img" src="assets/img/tower-camera.png" alt="">
+                                    </div>
+
+                                    <div class="favorite-card__bottom">
+                                        <h3 class="favorite-card__title">Tower Camera</h3>
+
+                                        <span class="favorite-card__price">
+                                            320 000
+                                        </span>
+                                        <span class="favorite-card__price-tag">сум</span>
+
+                                        <div class="favorite-card__btns">
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/favorite.svg" alt="">
+                                            </div>
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/basket-btn.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="favorite__button--prev">
+                        <img src="assets/img/prev.svg" alt="">
+                    </div>
+                    <div class="favorite__button--next">
+                        <img src="assets/img/next.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="tabs__content">
+                    <div class="favorite-container2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="favorite-card">
+
+                                    <div class="favorite-card__top">
+                                        <div class="favorite-stars">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star.svg" alt="">
+                                        </div>
+
+                                        <img class="favorite-card__img" src="assets/img/camera.png" alt="">
+                                    </div>
+
+                                    <div class="favorite-card__bottom">
+                                        <h3 class="favorite-card__title">Tower Camera</h3>
+
+                                        <span class="favorite-card__price">
+                                            320 000
+                                        </span>
+                                        <span class="favorite-card__price-tag">сум</span>
+
+                                        <div class="favorite-card__btns">
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/favorite.svg" alt="">
+                                            </div>
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/basket-btn.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="favorite-card">
+
+                                    <div class="favorite-card__top">
+                                        <div class="favorite-stars">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star.svg" alt="">
+                                        </div>
+
+                                        <img class="favorite-card__img" src="assets/img/camera.png" alt="">
+                                    </div>
+
+                                    <div class="favorite-card__bottom">
+                                        <h3 class="favorite-card__title">Tower Camera</h3>
+
+                                        <span class="favorite-card__price">
+                                            320 000
+                                        </span>
+                                        <span class="favorite-card__price-tag">сум</span>
+
+                                        <div class="favorite-card__btns">
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/favorite.svg" alt="">
+                                            </div>
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/basket-btn.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="favorite-card">
+
+                                    <div class="favorite-card__top">
+                                        <div class="favorite-stars">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star.svg" alt="">
+                                        </div>
+
+                                        <img class="favorite-card__img" src="assets/img/camera.png" alt="">
+                                    </div>
+
+                                    <div class="favorite-card__bottom">
+                                        <h3 class="favorite-card__title">Tower Camera</h3>
+
+                                        <span class="favorite-card__price">
+                                            320 000
+                                        </span>
+                                        <span class="favorite-card__price-tag">сум</span>
+
+                                        <div class="favorite-card__btns">
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/favorite.svg" alt="">
+                                            </div>
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/basket-btn.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="favorite-card">
+
+                                    <div class="favorite-card__top">
+                                        <div class="favorite-stars">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star.svg" alt="">
+                                        </div>
+
+                                        <img class="favorite-card__img" src="assets/img/camera.png" alt="">
+                                    </div>
+
+                                    <div class="favorite-card__bottom">
+                                        <h3 class="favorite-card__title">Tower Camera</h3>
+
+                                        <span class="favorite-card__price">
+                                            320 000
+                                        </span>
+                                        <span class="favorite-card__price-tag">сум</span>
+
+                                        <div class="favorite-card__btns">
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/favorite.svg" alt="">
+                                            </div>
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/basket-btn.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="favorite-card">
+
+                                    <div class="favorite-card__top">
+                                        <div class="favorite-stars">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star.svg" alt="">
+                                        </div>
+
+                                        <img class="favorite-card__img" src="assets/img/camera.png" alt="">
+                                    </div>
+
+                                    <div class="favorite-card__bottom">
+                                        <h3 class="favorite-card__title">Tower Camera</h3>
+
+                                        <span class="favorite-card__price">
+                                            320 000
+                                        </span>
+                                        <span class="favorite-card__price-tag">сум</span>
+
+                                        <div class="favorite-card__btns">
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/favorite.svg" alt="">
+                                            </div>
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/basket-btn.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="favorite__button--prev2">
+                        <img src="assets/img/prev.svg" alt="">
+                    </div>
+                    <div class="favorite__button--next2">
+                        <img src="assets/img/next.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="tabs__content tabs__content--active">
+                    <div class="favorite-container3">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="favorite-card">
+
+                                    <div class="favorite-card__top">
+                                        <div class="favorite-stars">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star.svg" alt="">
+                                        </div>
+
+                                        <img class="favorite-card__img" src="assets/img/tower-camera.png" alt="">
+                                    </div>
+
+                                    <div class="favorite-card__bottom">
+                                        <h3 class="favorite-card__title">Tower Camera</h3>
+
+                                        <span class="favorite-card__price">
+                                            320 000
+                                        </span>
+                                        <span class="favorite-card__price-tag">сум</span>
+
+                                        <div class="favorite-card__btns">
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/favorite.svg" alt="">
+                                            </div>
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/basket-btn.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="favorite-card">
+
+                                    <div class="favorite-card__top">
+                                        <div class="favorite-stars">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star.svg" alt="">
+                                        </div>
+
+                                        <img class="favorite-card__img" src="assets/img/tower-camera.png" alt="">
+                                    </div>
+
+                                    <div class="favorite-card__bottom">
+                                        <h3 class="favorite-card__title">Tower Camera</h3>
+
+                                        <span class="favorite-card__price">
+                                            320 000
+                                        </span>
+                                        <span class="favorite-card__price-tag">сум</span>
+
+                                        <div class="favorite-card__btns">
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/favorite.svg" alt="">
+                                            </div>
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/basket-btn.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="favorite-card">
+
+                                    <div class="favorite-card__top">
+                                        <div class="favorite-stars">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star.svg" alt="">
+                                        </div>
+
+                                        <img class="favorite-card__img" src="assets/img/tower-camera.png" alt="">
+                                    </div>
+
+                                    <div class="favorite-card__bottom">
+                                        <h3 class="favorite-card__title">Tower Camera</h3>
+
+                                        <span class="favorite-card__price">
+                                            320 000
+                                        </span>
+                                        <span class="favorite-card__price-tag">сум</span>
+
+                                        <div class="favorite-card__btns">
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/favorite.svg" alt="">
+                                            </div>
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/basket-btn.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="favorite-card">
+
+                                    <div class="favorite-card__top">
+                                        <div class="favorite-stars">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star.svg" alt="">
+                                        </div>
+
+                                        <img class="favorite-card__img" src="assets/img/tower-camera.png" alt="">
+                                    </div>
+
+                                    <div class="favorite-card__bottom">
+                                        <h3 class="favorite-card__title">Tower Camera</h3>
+
+                                        <span class="favorite-card__price">
+                                            320 000
+                                        </span>
+                                        <span class="favorite-card__price-tag">сум</span>
+
+                                        <div class="favorite-card__btns">
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/favorite.svg" alt="">
+                                            </div>
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/basket-btn.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="favorite-card">
+
+                                    <div class="favorite-card__top">
+                                        <div class="favorite-stars">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star-active.svg" alt="">
+                                            <img src="assets/img/star.svg" alt="">
+                                        </div>
+
+                                        <img class="favorite-card__img" src="assets/img/tower-camera.png" alt="">
+                                    </div>
+
+                                    <div class="favorite-card__bottom">
+                                        <h3 class="favorite-card__title">Tower Camera</h3>
+
+                                        <span class="favorite-card__price">
+                                            320 000
+                                        </span>
+                                        <span class="favorite-card__price-tag">сум</span>
+
+                                        <div class="favorite-card__btns">
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/favorite.svg" alt="">
+                                            </div>
+                                            <div class="favorite-card__btns--item">
+                                                <img src="assets/img/basket-btn.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="favorite__button--prev3">
+                        <img src="assets/img/prev.svg" alt="">
+                    </div>
+                    <div class="favorite__button--next3">
+                        <img src="assets/img/next.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="section products">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="products-card">
+                        <h3 class="products__title">Умный дом</h3>
+                        <div class="products-card__block">
+                            <a href="#" class="products__link link">
+                                <img src="assets/img/seeall.svg" alt=""> Смотреть все
+                            </a>
+
+                            <img class="products-card__img" src="assets/img/smart-house.png" alt="smart-house">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="products-card">
+                        <h3 class="products__title">Turbo HD <br> камеры
+                        </h3>
+                        <div class="products-card__block">
+                            <a href="#" class="products__link link">
+                                <img src="assets/img/seeall.svg" alt=""> Смотреть все
+                            </a>
+
+                            <img class="products-card__img" src="assets/img/camera-2.png" alt="smart-house">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="products-card">
+                        <h3 class="products__title">Turbo HD <br> видеорегистраторы
+                        </h3>
+                        <div class="products-card__block">
+                            <a href="#" class="products__link link">
+                                <img src="assets/img/seeall.svg" alt=""> Смотреть все
+                            </a>
+
+                            <img class="products-card__img" src="assets/img/video-register.png" alt="smart-house">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="products-card">
+                        <h3 class="products__title">IP камеры</h3>
+                        <div class="products-card__block">
+                            <a href="#" class="products__link link">
+                                <img src="assets/img/seeall.svg" alt=""> Смотреть все
+                            </a>
+
+                            <img class="products-card__img" src="assets/img/camera.png" alt="smart-house">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section novelty">
+            <h2 class="novelty__title title">Новинки</h2>
+
+            <div class="novelty-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="favorite-card">
+
+                            <div class="favorite-card__top">
+                                <div class="favorite-stars">
+                                    <img src="assets/img/star-active.svg" alt="">
+                                    <img src="assets/img/star-active.svg" alt="">
+                                    <img src="assets/img/star-active.svg" alt="">
+                                    <img src="assets/img/star-active.svg" alt="">
+                                    <img src="assets/img/star.svg" alt="">
+                                </div>
+
+                                <img class="favorite-card__img" src="assets/img/tower-camera.png" alt="">
+                            </div>
+
+                            <div class="favorite-card__bottom">
+                                <h3 class="favorite-card__title">Tower Camera</h3>
+
+                                <span class="favorite-card__price">
+                                    320 000
+                                </span>
+                                <span class="favorite-card__price-tag">сум</span>
+
+                                <div class="favorite-card__btns">
+                                    <div class="favorite-card__btns--item">
+                                        <img src="assets/img/favorite.svg" alt="">
+                                    </div>
+                                    <div class="favorite-card__btns--item">
+                                        <img src="assets/img/basket-btn.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="favorite-card">
+
+                            <div class="favorite-card__top">
+                                <div class="favorite-stars">
+                                    <img src="assets/img/star-active.svg" alt="">
+                                    <img src="assets/img/star-active.svg" alt="">
+                                    <img src="assets/img/star-active.svg" alt="">
+                                    <img src="assets/img/star-active.svg" alt="">
+                                    <img src="assets/img/star.svg" alt="">
+                                </div>
+
+                                <img class="favorite-card__img" src="assets/img/tower-camera.png" alt="">
+                            </div>
+
+                            <div class="favorite-card__bottom">
+                                <h3 class="favorite-card__title">Tower Camera</h3>
+
+                                <span class="favorite-card__price">
+                                    320 000
+                                </span>
+                                <span class="favorite-card__price-tag">сум</span>
+
+                                <div class="favorite-card__btns">
+                                    <div class="favorite-card__btns--item">
+                                        <img src="assets/img/favorite.svg" alt="">
+                                    </div>
+                                    <div class="favorite-card__btns--item">
+                                        <img src="assets/img/basket-btn.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="favorite-card">
+
+                            <div class="favorite-card__top">
+                                <div class="favorite-stars">
+                                    <img src="assets/img/star-active.svg" alt="">
+                                    <img src="assets/img/star-active.svg" alt="">
+                                    <img src="assets/img/star-active.svg" alt="">
+                                    <img src="assets/img/star-active.svg" alt="">
+                                    <img src="assets/img/star.svg" alt="">
+                                </div>
+
+                                <img class="favorite-card__img" src="assets/img/tower-camera.png" alt="">
+                            </div>
+
+                            <div class="favorite-card__bottom">
+                                <h3 class="favorite-card__title">Tower Camera</h3>
+
+                                <span class="favorite-card__price">
+                                    320 000
+                                </span>
+                                <span class="favorite-card__price-tag">сум</span>
+
+                                <div class="favorite-card__btns">
+                                    <div class="favorite-card__btns--item">
+                                        <img src="assets/img/favorite.svg" alt="">
+                                    </div>
+                                    <div class="favorite-card__btns--item">
+                                        <img src="assets/img/basket-btn.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="favorite-card">
+
+                            <div class="favorite-card__top">
+                                <div class="favorite-stars">
+                                    <img src="assets/img/star-active.svg" alt="">
+                                    <img src="assets/img/star-active.svg" alt="">
+                                    <img src="assets/img/star-active.svg" alt="">
+                                    <img src="assets/img/star-active.svg" alt="">
+                                    <img src="assets/img/star.svg" alt="">
+                                </div>
+
+                                <img class="favorite-card__img" src="assets/img/tower-camera.png" alt="">
+                            </div>
+
+                            <div class="favorite-card__bottom">
+                                <h3 class="favorite-card__title">Tower Camera</h3>
+
+                                <span class="favorite-card__price">
+                                    320 000
+                                </span>
+                                <span class="favorite-card__price-tag">сум</span>
+
+                                <div class="favorite-card__btns">
+                                    <div class="favorite-card__btns--item">
+                                        <img src="assets/img/favorite.svg" alt="">
+                                    </div>
+                                    <div class="favorite-card__btns--item">
+                                        <img src="assets/img/basket-btn.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="favorite-card">
+
+                            <div class="favorite-card__top">
+                                <div class="favorite-stars">
+                                    <img src="assets/img/star-active.svg" alt="">
+                                    <img src="assets/img/star-active.svg" alt="">
+                                    <img src="assets/img/star-active.svg" alt="">
+                                    <img src="assets/img/star-active.svg" alt="">
+                                    <img src="assets/img/star.svg" alt="">
+                                </div>
+
+                                <img class="favorite-card__img" src="assets/img/tower-camera.png" alt="">
+                            </div>
+
+                            <div class="favorite-card__bottom">
+                                <h3 class="favorite-card__title">Tower Camera</h3>
+
+                                <span class="favorite-card__price">
+                                    320 000
+                                </span>
+                                <span class="favorite-card__price-tag">сум</span>
+
+                                <div class="favorite-card__btns">
+                                    <div class="favorite-card__btns--item">
+                                        <img src="assets/img/favorite.svg" alt="">
+                                    </div>
+                                    <div class="favorite-card__btns--item">
+                                        <img src="assets/img/basket-btn.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="favorite-card">
+
+                            <div class="favorite-card__top">
+                                <div class="favorite-stars">
+                                    <img src="assets/img/star-active.svg" alt="">
+                                    <img src="assets/img/star-active.svg" alt="">
+                                    <img src="assets/img/star-active.svg" alt="">
+                                    <img src="assets/img/star-active.svg" alt="">
+                                    <img src="assets/img/star.svg" alt="">
+                                </div>
+
+                                <img class="favorite-card__img" src="assets/img/tower-camera.png" alt="">
+                            </div>
+
+                            <div class="favorite-card__bottom">
+                                <h3 class="favorite-card__title">Tower Camera</h3>
+
+                                <span class="favorite-card__price">
+                                    320 000
+                                </span>
+                                <span class="favorite-card__price-tag">сум</span>
+
+                                <div class="favorite-card__btns">
+                                    <div class="favorite-card__btns--item">
+                                        <img src="assets/img/favorite.svg" alt="">
+                                    </div>
+                                    <div class="favorite-card__btns--item">
+                                        <img src="assets/img/basket-btn.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="novelty__button--prev">
+                <img src="assets/img/prev.svg" alt="">
+            </div>
+            <div class="novelty__button--next">
+                <img src="assets/img/next.svg" alt="">
+            </div>
+        </section>
+
+        <section class="section lastnews">
+            <div class="row">
+                <div class="col-lg-4 col-md-12">
+                    <div class="lastnews__block">
+                        <h2 class="lastnews__title">
+                            Последние <br> новости
+                        </h2>
+                        <p class="lastnews__subtitle">
+                            Новинки августа и <br> сентября 2020
+                        </p>
+
+                        <a href="#" class="btn lastnews__btn link">Смотреть все</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="lastnews-card">
+                        <img class="lastnews-card__img" src="assets/img/news-camera.png" alt="">
+                        <div class="lastnews-card__content">
+                            <span class="lastnews-card__date">
+                                25.08.2020
+                            </span>
+                            <h3 class="lastnews-card__title">
+                                Какой срок <br> годности у <br> наших камер?
+                            </h3>
+                            <p class="lastnews-card__text">
+                                В зависимости от модели <br> срок годности от 3 до 5 лет.
+                            </p>
+                            <a href="#" class="lastnews-card__link link yellow">
+                                <img src="assets/img/seeall.svg" alt=""> Узнать больше
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="lastnews-card">
+                        <img class="lastnews-card__img" src="assets/img/news-camera.png" alt="">
+                        <div class="lastnews-card__content">
+                            <span class="lastnews-card__date">
+                                25.08.2020
+                            </span>
+                            <h3 class="lastnews-card__title">
+                                Какой срок <br> годности у <br> наших камер?
+                            </h3>
+                            <p class="lastnews-card__text">
+                                В зависимости от модели <br> срок годности от 3 до 5 лет.
+                            </p>
+                            <a href="#" class="lastnews-card__link link yellow">
+                                <img src="assets/img/seeall.svg" alt=""> Узнать больше
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section order">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="order__img" src="assets/img/camera-big.png" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <div class="order__content">
+                        <h2 class="order__title title">
+                            Камера видео <br> наблюдения с <br>
+                            <span class="yellow">тепловизором</span>
+                        </h2>
+                        <p class="order__text">
+                            Главная новинка 2020 года, в ограниченном количестве. <br> Успей купить сейчас!
+                        </p>
+                        <a href="#" class="btn order__btn link">Заказать сейчас</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <div class="contacts">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <div class="contacts__img">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="contacts__map">
+                    <div class="contacts__info">
+                        <h3 class="contacts__title title">Контакты</h3>
+                        <p class="contacts__text">
+                            Свяжитесь с нами по телефону или <br> напишите на почту
+                        </p>
+                        <a href="tel:+998782348976" class="contacts__link link">+998 78 234 89 76</a>
+                        <a href="mailto:info@shop_security.com" class="contacts__link link">info@shop_security.com</a>
+                    </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.1358776336533!2d69.28112891496319!3d41.32765860765961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b4a6cc92b1b%3A0x15b03edbd5c5c039!2z0K7QvdGD0YHQsNCx0LDQtNGB0LrQuNC5INGF0L7QutC40LzQuNGP0YI!5e0!3m2!1sru!2s!4v1599569931821!5m2!1sru!2s"
+                        frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <h3 class="footer__title title">
+                        Мы в соц. сетях
+                    </h3>
+                    <ul class="footer__social">
+                        <li>
+                            <a class="footer__link link" href="#">
+                                <div class="footer__logo">
+                                    <img src="assets/img/insta.svg" alt="telegram">
+                                </div>
+                                <span class="footer__link--text">
+                                    Telegram
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer__link link" href="#">
+                                <div class="footer__logo">
+                                    <img src="assets/img/telegram.svg" alt="telegram">
+                                </div>
+                                <span class="footer__link--text">
+                                    Instagram
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer__link link" href="#">
+                                <div class="footer__logo">
+                                    <img src="assets/img/facebook.svg" alt="telegram">
+                                </div>
+                                <span class="footer__link--text">
+                                    Facebook
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h3 class="footer__title title">
+                        Информация
+                    </h3>
+                    <ul class="footer__social">
+                        <li>
+                            <a href="#" class="footer__link link">
+                                Монтаж
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link link">
+                                Доставка и оплата
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link link">
+                                Гарантия
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link link">
+                                Политика
+                                конфеденциальности
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h3 class="footer__title title">
+                        Полезные ссылки
+                    </h3>
+                    <ul class="footer__social">
+                        <li>
+                            <a href="#" class="footer__link link">
+                                Примерный пункт
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link link">
+                                Примерный пункт
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link link">
+                                Примерный пункт
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <div class="footer__consult">
+                        <h3 class="footer__title title">
+                            Нужна консультация?
+                        </h3>
+                        <p class="footer__text">
+                            Напишите нам и наш менеджер свяжется с вами в <br> удобное для вас время или в ближайшие 20
+                            минут
+                        </p>
+                        <div class="footer__block">
+                            <img src="assets/img/input.svg" alt="">
+                            <input class="footer__input" type="tel" placeholder="Ваш номер телефона" required>
+                            <a href="#" class="footer__btn btn link">Отправить</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="modal">
+        <div class="container">
+            <div class="modal__icon" id="modal-close">
+                <img src="assets/img/modal-close-icon.svg" alt="">
+            </div>
+            <div class="modal__content">
+                <form action="">
+                    <h2 class="modal__title">Авторизация</h2>
+                    <label class="modal__text">Тел.номер или Эл. почта</label>
+                    <input type="email number">
+                    <label class="modal__text">Пароль</label>
+                    <input type="password">
+                    <div class="modal__buttons">
+                        <button class="modal__button">Войти</button>
+                        <button class="modal__button">Регистрация</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="trash-modal" id="trash-modal">
+        <p class="trash-modal__title">
+            В вашей корзине: 
+            <span>
+                1 шт. товаров
+            </span>
+        </p>
+        <hr>    
+        <table class="trash-modal__table">
+            <tr class="trash-modal__row">
+                <td class="trash-modal__data">
+                    <img src="assets/img/trash-logo.png" alt="">
+                </td>
+                <td class="trash-modal__data">
+                    <h4 class="trash-modal__data-title">Tower Camera</h4>
+                </td>
+                <td class="trash-modal__data">
+                    <p class="trash-modal__price">320 000</p>
+                    <p class="trash-modal__pricetag">UZS</p>
+                    <span class="trash-modal__calc">
+                        <a id="minus" href="#"><img src="assets/img/minus.png" alt=""></a>
+                        <span id="amount" class="trash-modal__val">1</span>
+                        <a id="plus" href="#"><img src="assets/img/plus.png" alt=""></a>
+                    </span>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <p class="trash-modal__summ">
+            Итого: <span>320000 UZS</span> 
+        </p>
+        <div class="trash-modal__btns">
+            <a href="" class="trash-modal__btn">
+                Продолжить покупку
+            </a>
+            <a href="" class="trash-modal__btn">
+                Перейти к заказу
+            </a>
+        </div>
+    </div>
+
+    <script src="assets/js/libs.min.js"></script>
+    <script src="assets/js/main.min.js"></script>
+</body>
+
+</html>

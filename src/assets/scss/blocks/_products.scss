@@ -1,0 +1,57 @@
+.products {
+    &-card {
+        position: relative;
+        padding: 40px;
+        padding-right: 30px;
+        height: 292px;
+        background: $bg-grey;
+
+        &:nth-child(1),
+        &:nth-child(2) {
+            margin-bottom: 20px;
+        }
+
+        &__block {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &__img {
+            position: absolute;
+            max-width: 100%;
+            right: 5%;
+            bottom: 10%;
+        }
+    }
+
+    &__title {
+        font-size: 22px;
+        color: $main-black;
+    }
+
+    &__link {
+        position: absolute;
+        bottom: 10%;
+        display: flex;
+        align-items: center;
+        color: $yellow;
+        font-size: 15px;
+
+        & img {
+            margin-right: 5px;
+        }
+    }
+}
+
+@media(max-width: 568px) {
+    .products {
+        &-card {
+            &__img {
+                width: 40%;
+                right: 28%;
+                bottom: 25%;
+            }
+        }
+    }
+}
+

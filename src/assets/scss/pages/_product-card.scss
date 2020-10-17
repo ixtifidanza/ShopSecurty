@@ -1,0 +1,170 @@
+.product-card {
+    &__slider {
+        padding-bottom: 50px;
+    }
+    &__info {
+        .tabs__active {
+            font-weight: 700;
+            color: #000;
+            text-decoration: none;
+            border-bottom: none;
+        }
+        li {
+            color: #929091;
+            font-weight: 700;
+        }
+    }
+    &__about {
+        padding: 20px 0 70px;
+        background: linear-gradient(to right, #FBC25A 40%, #fff 40%);
+    }
+    &__img {
+        display: block;
+        margin: 20px 0 0 auto;
+        width: 60%;
+        max-width: 100%;
+        @media (max-width: 568px) {
+            margin: 20px auto;
+        }
+    }
+    a {
+        text-decoration: none;
+        ;
+    }
+    &__content {
+        &--title {
+            font-size: 35px;
+            @media (max-width: 568px) {
+                margin: 0 15px;
+            }
+        }
+    }
+    &__reviews {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 15px 0;
+        @media (max-width: 568px) {
+            margin: 15px;
+        }
+    }
+    &__text {
+        line-height: 22px;
+        @media (max-width: 568px) {
+            margin: 15px;
+        }
+    }
+    &__price {
+        font-weight: bold;
+        font-size: 25px;
+        color: $main-black;
+        @media (max-width: 568px) {
+            margin: 15px;
+        }
+        & span {
+            font-size: 16px;
+        }
+    }
+    &__row {
+        width: 320px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin: 35px 0 12px;
+        @media (max-width: 568px) {
+            padding: 0 15px;
+        }
+    }
+    &__booknow {
+        font-size: 13px;
+    }
+    &__old-price {
+        text-decoration: line-through;
+        @media (max-width: 568px) {
+            margin: 0 15px;
+        }
+        & span {
+            font-size: 12px;
+        }
+    }
+    &__button {
+        margin: 40px 0 0 0;
+        display: flex;
+        align-items: center;
+        @media (max-width: 568px) {
+            padding: 0 15px;
+        }
+        & a {
+            text-decoration: none;
+        }
+    }
+    &__btn {
+        margin-right: 35px;
+        padding: 15px 40px;
+        font-size: 14px;
+        background: #F5A81B;
+        color: #fff;
+        transition: all .2s linear;
+    }
+    &__btn:hover {
+        background-color: $bg-grey;
+        color: $main-black;
+    }
+    &__trash {
+        font-size: 15px;
+        font-weight: bold;
+        color: $main-black;
+    }
+    &-characteristic {
+        &__row {
+            width: 50%;
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+            @media (max-width: 568px) {
+                width: 100%;
+            }
+        }
+        &__title {
+            padding: 15px 0;
+            @media (max-width: 568px) {
+                font-size: 13px;
+            }
+        }
+        &__text {
+            @media (max-width: 568px) {
+                font-size: 13px;
+            }
+            &:nth-child(2) {
+                line-height: 2.0;
+            }
+        }
+    }
+    &-tabs__caption {
+        justify-content: flex-start;
+        margin-bottom: 10px;
+        & li:nth-child(2) {
+            margin: 0;
+            margin-left: 50px;
+        }
+    }
+    &-review {
+        height: 150px;
+        @media (max-width: 568px) {
+            height: 250px;
+        }
+        .p {
+            margin-bottom: 50px;
+        }
+    }
+    &__info {
+        margin: 50px 0 100px;
+        &--block {
+            padding: 35px 60px;
+            background: $bg-grey;
+            @media (max-width: 568px) {
+                padding: 20px 15px;
+            }
+        }
+    }
+}

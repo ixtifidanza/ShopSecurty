@@ -1,0 +1,130 @@
+.slider {
+    width: 100%;
+    padding-top: 20px;
+
+    &__img {
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+
+    &__content {
+        position: absolute;
+        top: 15%;
+        left: 10%;
+        max-width: 420px;
+    }
+
+    &__title {
+        margin-bottom: 16px;
+        line-height: 1.6;
+        color: $white;
+    }
+
+    &__text {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 1.8;
+        word-spacing: 5px;
+        margin-bottom: 50px;
+        color: $white;
+    }
+
+    &__btn {
+        background: $bg-grey;
+        font-size: 17px;
+        font-weight: 700;
+        transition: all .3s ease;
+
+        &:hover {
+            background: $yellow;
+            color: $white;
+        }
+    }
+}
+
+.swiper-container {
+    max-width: 100%;
+    height: 500px;
+}
+
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    border: 1px solid $white;
+    background: none;
+
+    &-active {
+        padding: 5px;
+        background: $white;
+    }
+}
+
+.swiper-pagination {
+    margin-bottom: 15px;
+}
+
+.swiper-pagination-bullet-active {
+    padding: 0;
+}
+
+
+@media(max-width: 1200px) {
+    .slider {
+        &__title {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+    
+        &__text {
+            font-size: 16px;
+            line-height: 1.7;
+            word-spacing: 4px;
+        }
+    }
+
+    .swiper-container {
+        height: 400px;
+    }
+}
+
+
+@media(max-width: 768px) {
+    .slider {
+        &__title {
+            margin-bottom: 14px;
+            line-height: 1.5;
+        }
+    
+        &__text {
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+    }
+
+    .swiper-container {
+        height: 350px;
+    }
+}
+
+@media(max-width: 568px) {
+    .slider {
+        &__title {
+            font-size: 25px;
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+    
+        &__text {
+            font-size: 13px;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+    }
+
+    .swiper-container {
+        height: 330px;
+    }
+}

@@ -1,0 +1,121 @@
+.footer {
+    padding: 60px 0 35px;
+    &__title {
+        font-size: 18px;
+        margin-bottom: 35px;
+    }
+    &__text {
+        color: $grey;
+        line-height: 28px;
+        margin-bottom: 28px;
+    }
+    &__social {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        list-style: none;
+    }
+    &__link {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        transition: color 0.2s linear;
+        &:hover {
+            color: $yellow;
+        }
+    }
+    &__logo {
+        width: 30px;
+        margin-right: 10px;
+        text-align: center;
+    }
+    &__consult {
+        margin-left: 70px;
+    }
+    &__input {
+        padding: 17px 0;
+        margin: 0 32px 0 20px;
+        border: none;
+    }
+    &__btn {
+        background-color: $yellow;
+        color: $white;
+        &:hover {
+            background-color: $border;
+            color: $white;
+        }
+    }
+    &__block {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media(max-width: 1200px) {
+    .footer {
+        text-align: center;
+        padding: 40px 0 30px;
+        & .col-lg-2 {
+            margin-bottom: 40px;
+        }
+        &__title {
+            font-size: 20px;
+            margin-bottom: 35px;
+        }
+        &__text {
+            line-height: 25px;
+            margin-bottom: 25px;
+        }
+        &__social {
+            align-items: center;
+        }
+        &__consult {
+            margin-left: 0;
+        }
+        &__block {
+            justify-content: center;
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .footer {
+        text-align: center;
+        padding: 40px 0 30px;
+        &__title {
+            font-size: 19px;
+            margin-bottom: 35px;
+        }
+        &__text {
+            font-size: 14px;
+            line-height: 25px;
+            margin-bottom: 25px;
+        }
+    }
+}
+
+@media(max-width: 568px) {
+    .footer {
+        text-align: center;
+        padding: 40px 0 30px;
+        &__title {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        &__text {
+            font-size: 13px;
+            line-height: 25px;
+            margin-bottom: 20px;
+        }
+        &__block {
+            flex-wrap: wrap;
+        }
+        &__input {
+            margin-left: 10px;
+            margin-right: 0;
+        }
+        &__btn {
+            margin-top: 15px;
+        }
+    }
+}

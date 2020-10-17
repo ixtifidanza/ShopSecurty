@@ -1,0 +1,126 @@
+.lastnews {
+    &__title {
+        font-size: 45px;
+        color: $main-black;
+        margin-bottom: 32px;
+        line-height: 1.5;
+    }
+
+    &__subtitle {
+        font-size: 18px;    
+        margin-bottom: 50px;
+    }
+
+    &__block {
+        margin-top: 150px;
+    }
+
+    &-card {
+        margin-left: auto;
+        max-width: 325px;
+        &__img {
+            max-width: 100%;
+            display: block;
+        }
+
+        &__content {
+            background: $bg-grey;
+            padding: 17px 0 25px 28px;
+        }
+
+        &__date {
+            font-size: 15px;
+        }
+
+        &__title {
+            margin: 40px 0;
+            font-size: 20px;
+            color: $main-black;
+        }
+
+        &__text {
+            color: $main-black;
+            margin-bottom: 60px;
+        }
+
+        &__link {
+            display: flex;
+            align-items: center;
+
+            & img {
+                margin-right: 5px;
+            }
+        }
+    }
+}
+
+@media(max-width: 1200px) {
+    .lastnews {
+        &__title {
+            font-size: 40px;
+        }
+    
+        &__subtitle {
+            font-size: 17px;    
+            margin-bottom: 45px;
+        }
+    
+        &__block {
+            text-align: center;
+            margin: 0 0 50px;
+        }
+    
+        &-card {
+            margin: 0 auto;
+            &__date {
+                font-size: 14px;
+            }
+    
+            &__title {
+                margin: 35px 0;
+                font-size: 19px;
+            }
+    
+            &__text {
+                margin-bottom: 55px;
+            }
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .lastnews {
+        &__title {
+            font-size: 35px;
+        }
+    
+        &__subtitle {
+            font-size: 16px;    
+            margin-bottom: 40px;
+        }
+    
+        &__block {
+            margin: 0 0 45px;
+        }
+    
+        &-card {
+            margin: 0 auto 20px;
+            &__date {
+                font-size: 14px;
+            }
+    
+            &__title {
+                margin: 32px 0;
+                font-size: 18px;
+            }
+    
+            &__text {
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+
+@media(max-width: 568px) {
+
+}

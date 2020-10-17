@@ -1,0 +1,83 @@
+.tabs {
+    &__caption {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        cursor: pointer;
+        margin-bottom: 55px;
+        color: $main-black;
+        transition: all .2s linear;
+
+        & li {
+            font-size: 22px;
+        }
+
+        & li:nth-child(2) {
+            margin: 0 85px;
+        }
+    }
+
+    &__active {
+        color: $yellow;
+        border-bottom: 1px solid $main-black;
+        
+    }
+
+    &__content {
+        display: none; /* по умолчанию прячем все блоки */
+    }
+
+    &__content--active {
+        display: block; /* по умолчанию показываем нужный блок */
+    }
+}
+
+@media(max-width: 1200px) {
+    .tabs {
+        &__caption {
+            margin-bottom: 50px;
+    
+            & li {
+                font-size: 20px;
+            }
+    
+            & li:nth-child(2) {
+                margin: 0 80px;
+            }
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .tabs {
+        &__caption {
+            margin-bottom: 40px;
+    
+            & li {
+                font-size: 19px;
+            }
+    
+            & li:nth-child(2) {
+                margin: 0 80px;
+            }
+        }
+    }
+}
+
+@media(max-width: 568px) {
+    .tabs {
+        &__caption {
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 35px;
+    
+            & li {
+                font-size: 18px;
+            }
+    
+            & li:nth-child(2) {
+                margin: 30px 0;
+            }
+        }
+    }
+}

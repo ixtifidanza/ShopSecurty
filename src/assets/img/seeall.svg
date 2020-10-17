@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Border" width="36" height="36" rx="18" fill="none" stroke="#ccc" stroke-miterlimit="10" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Border-2" data-name="Border" width="28" height="28" rx="14" fill="none" stroke="#ccc" stroke-miterlimit="10" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_2438" data-name="Group 2438" transform="translate(-459 -2481)">
+    <g id="Border-3" data-name="Border" transform="translate(463 2513) rotate(-90)" fill="none" stroke="#f5a81b" stroke-miterlimit="10" stroke-width="1">
+      <rect width="28" height="28" rx="14" stroke="none"/>
+      <rect x="0.5" y="0.5" width="27" height="27" rx="13.5" fill="none"/>
+    </g>
+    <path id="Arrow" d="M1.394,9.769a.838.838,0,0,1-1.155,0,.768.768,0,0,1,0-1.114L4.029,5,.239,1.345a.768.768,0,0,1,0-1.114.838.838,0,0,1,1.155,0L5.761,4.443a.768.768,0,0,1,0,1.114Z" transform="translate(474.5 2494)" fill="#f5a81b"/>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="Group_2452" data-name="Group 2452" transform="translate(-1503 -2433)">
+    <g id="Border" transform="translate(1539 2433) rotate(90)" fill="none" stroke="#ccc" stroke-miterlimit="10" stroke-width="1">
+      <rect width="36" height="36" rx="18" stroke="none"/>
+      <rect x="0.5" y="0.5" width="35" height="35" rx="17.5" fill="none"/>
+    </g>
+    <g id="Border-2" data-name="Border" transform="translate(1535 2437) rotate(90)" fill="none" stroke="#ccc" stroke-miterlimit="10" stroke-width="1">
+      <rect width="28" height="28" rx="14" stroke="none"/>
+      <rect x="0.5" y="0.5" width="27" height="27" rx="13.5" fill="none"/>
+    </g>
+    <g id="Border-3" data-name="Border" transform="translate(1535 2437) rotate(90)" fill="none" stroke="#a4a4a4" stroke-miterlimit="10" stroke-width="1">
+      <rect width="28" height="28" rx="14" stroke="none"/>
+      <rect x="0.5" y="0.5" width="27" height="27" rx="13.5" fill="none"/>
+    </g>
+    <path id="Arrow" d="M1.394.231a.838.838,0,0,0-1.155,0,.768.768,0,0,0,0,1.114L4.029,5,.239,8.655a.768.768,0,0,0,0,1.114.838.838,0,0,0,1.155,0L5.761,5.557a.768.768,0,0,0,0-1.114Z" transform="translate(1518.5 2446)"/>
+    <path id="Arrow-2" data-name="Arrow" d="M1.394.231a.838.838,0,0,0-1.155,0,.768.768,0,0,0,0,1.114L4.029,5,.239,8.655a.768.768,0,0,0,0,1.114.838.838,0,0,0,1.155,0L5.761,5.557a.768.768,0,0,0,0-1.114Z" transform="translate(1518.5 2446)" fill="#373435"/>
+  </g>
+</svg>

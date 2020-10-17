@@ -1,0 +1,32 @@
+.novelty {
+    position: relative;
+    &__title {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    
+    &-container {
+        overflow: hidden;
+        position: relative;
+        max-width: 100%;
+    }
+
+    &__button--prev,
+    &__button--next {
+        position: absolute;
+        z-index: 3;
+        cursor: pointer;
+        outline: none;
+    }
+
+    &__button--prev {
+        top: 50%;
+        left: -35px;
+    }
+
+    &__button--next {
+        top: 50%;
+        right: -35px;
+    }
+
+}
